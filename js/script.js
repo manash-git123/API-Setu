@@ -148,7 +148,8 @@ function displayOutput(outputs){
     });
     // console.log(formattedOutput);
     if(formattedOutput == ''){
-        formattedOutput = '<b style="color:red;">No slots Available</b>'
+        formattedOutput = '<b style="color:red;">No slots Available</b>';
+        formattedOutput += '<h4>Get Notified (upcoming feature ...)</h4>'; 
     }
     document.getElementById("displaySection").style.display = 'block';
     document.getElementById("resultOutput").innerHTML = formattedOutput;
