@@ -242,7 +242,7 @@ function submitUserDetails(){
 
         console.log(post);
         $.ajax({
-            url: 'http://127.0.0.1:5000/set_user',
+            url: ' https://747a23ff9934.ngrok.io/set_user', //the server keeps changing
             type: 'POST',
             contentType: 'application/json',
             data: JSON.stringify(post),
